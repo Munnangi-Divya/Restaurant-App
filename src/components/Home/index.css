@@ -44,4 +44,6 @@
 .dishes-list-container {
   list-style-type: none;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
 }
