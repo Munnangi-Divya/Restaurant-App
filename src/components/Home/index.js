@@ -112,7 +112,7 @@ const Home = () => {
     )
 
     return (
-      <ul className="m-0 d-flex flex-column dishes-list-container">
+      <ul className="dishes-list-container">
         {categoryDishes.map(eachDish => (
           <DishItem
             key={eachDish.dishId}
@@ -137,7 +137,7 @@ const Home = () => {
   ) : (
     <div className="home-background">
       <Header cartItems={cartItems} />
-      <ul className="m-0 ps-0 d-flex tab-container">{renderTabMenuList()}</ul>
+      <ul className="tab-container">{renderTabMenuList()}</ul>
       {renderDishes()}
     </div>
   )
