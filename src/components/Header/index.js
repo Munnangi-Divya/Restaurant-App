@@ -26,7 +26,7 @@ const Header = ({cartItems}) => {
     <header className="nav-header">
       <h1 className="logo-heading">UNI Resto Cafe</h1>
       <div className="cart">
-        <p className="mt-0 mb-0 me-2 d-none d-sm-block my-orders-text">
+        <p className="my-orders-text">
           My Orders
         </p>
         {renderCartIcon()}
